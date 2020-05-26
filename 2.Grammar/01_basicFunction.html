@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="one">Hello</h1>
+    <script>
+      const name = "이주연";
+      const age = 28;
+
+      /* 4가지 문자 출력 방법 */
+
+      // 1. Write
+      document.write(name);
+      document.write("<br>");
+      document.write(age);
+
+      // 2. Alert
+      window.alert(name);
+
+      // 3. Console
+      console.log(name);
+
+      // 4. document.getElementById("").innerHTML = "";
+      document.getElementById("one").innerHTML = "Hello Javascript";
+    </script>
+  </body>
+</html>
