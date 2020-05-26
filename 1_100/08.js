@@ -11,3 +11,5 @@ var d = {
 };
 
 console.log(d["weight"]);
+
+//84
